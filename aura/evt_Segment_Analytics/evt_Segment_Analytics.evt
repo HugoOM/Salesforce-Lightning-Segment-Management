@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION">
+  <aura:attribute name="type" type="String" required="true" />
+  <aura:attribute name="params" type="List" />
+</aura:event>

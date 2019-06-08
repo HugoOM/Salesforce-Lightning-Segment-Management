@@ -1,0 +1,11 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="Segment_Analytics_Backend_Controller">
+  <aura:handler 
+    event="c:evt_Segment_Analytics" 
+    action="{!c.handleSegmentEvent}" 
+    />
+
+  <aura:handler
+    event="forceCommunity:routeChange"
+    action="{!c.handleRouteChange}"
+  />
+</aura:component>

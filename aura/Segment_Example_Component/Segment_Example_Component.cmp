@@ -1,0 +1,3 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" extends="c:Segment_Analytics_Abstract_Emitter">
+  <lightning:button variant="brand" label="Test Segment Action" title="SegmentTest" onclick="{! c.testSegmentButton }" />
+</aura:component>
